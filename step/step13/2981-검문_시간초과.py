@@ -7,6 +7,8 @@ for i in range(N):
 num.sort()
 cn = num[1]
 for i in range(2,cn+1):
+
+
     rem = num[0]%i
     for j in range(1,N):
         if rem != num[j]%i:
