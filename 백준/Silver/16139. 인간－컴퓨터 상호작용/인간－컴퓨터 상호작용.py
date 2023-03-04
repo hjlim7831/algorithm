@@ -22,3 +22,4 @@ for _ in range(q):
     alpha, l, r = input().rstrip().split()
     alp_ind = ord(alpha) - ord('a')
     print(alpha_acc[int(r)+1][alp_ind] - alpha_acc[int(l)][alp_ind])
+
