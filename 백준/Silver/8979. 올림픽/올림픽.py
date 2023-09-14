@@ -11,11 +11,11 @@ for country in countries:
 
 rank = 1
 for country in countries:
-    if target[1] > country[1]:
+    if target[1] < country[1]:
         rank += 1
-    elif target[1] == country[1] and target[2] > country[2]:
+    elif target[1] == country[1] and target[2] < country[2]:
         rank += 1
-    elif target[1] == country[1] and target[2] == country[2] and target[3] > country[3]:
+    elif target[1] == country[1] and target[2] == country[2] and target[3] < country[3]:
         rank += 1
 
 print(rank)
